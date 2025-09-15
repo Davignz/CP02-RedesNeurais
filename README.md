@@ -50,8 +50,8 @@ pip install tensorflow scikit-learn
 Ainda no terminal, execute:
 
 ```bash
-python wine_classification_based.py
-python california_regression_based.py
+python wine_classification.py
+python california_regression.py
 ```
 
 ✅ Cada script vai imprimir no console:
