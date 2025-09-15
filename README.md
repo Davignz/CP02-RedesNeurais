@@ -30,3 +30,32 @@
 * Isso indica que o modelo não-linear conseguiu capturar padrões mais complexos do que a regressão linear simples.
 
 **Conclusão:** Para este problema, a rede neural apresentou melhor desempenho, oferecendo previsões mais precisas.
+
+
+### Como rodar o projeto
+
+### 1 Abra um terminal na pasta onde estão os arquivos.
+
+### 2 Instalar as bibliotecas
+
+No terminal:
+
+```bash
+pip install tensorflow scikit-learn
+```
+
+
+### 3 Rodar os scripts
+
+Ainda no terminal, execute:
+
+```bash
+python wine_classification_based.py
+python california_regression_based.py
+```
+
+✅ Cada script vai imprimir no console:
+
+* Para o **Wine**: a acurácia da rede neural e do RandomForest.
+* Para o **California Housing**: o RMSE da rede neural e da regressão linear.
+
